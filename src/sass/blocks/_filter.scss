@@ -1,0 +1,53 @@
+.filter {
+    padding: 25px 34px 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    
+    &__form {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    &__form-row {
+        display: flex;
+        flex-direction: column;
+        margin-right: 23px;
+
+        &:last-child {
+            margin-right: 28px;
+        }
+    }
+
+    &__form-label {
+        margin: 0;
+        padding: 4px 6px;
+        width: max-content;
+        background: linear-gradient(91.59deg, #004288 11.97%, #1F68A6 73.45%);
+        border-radius: 5px 5px 0px 0px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 12px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__form-input {
+        width: 429px;
+        height: 41px;
+        border: 1px solid #DFDFDF;
+        border-radius: 0px 5px 5px 5px;
+        padding: 0 12px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__form-btn {
+        width: 198px;
+    }
+}

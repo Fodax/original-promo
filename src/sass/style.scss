@@ -1,0 +1,37 @@
+@import 'libs/bootstrap-reboot.min';
+
+//libs
+
+//fonts
+@import 'libs/fonts';
+
+//base
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E1E1E;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+//blocks
+@import 'blocks/title';
+@import 'blocks/slider-dots';
+@import 'blocks/btn';
+@import 'blocks/filter';
+@import 'blocks/site-header';
+@import 'blocks/hero';
+@import 'blocks/categories';
+@import 'blocks/brands';
+@import 'blocks/about';
+@import 'blocks/banner';
+@import 'blocks/site-footer';
+
+@import 'blocks/media';

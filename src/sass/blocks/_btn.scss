@@ -1,0 +1,48 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 211px;
+    height: 41px;
+    background: linear-gradient(91.59deg, #004288 11.97%, #1F68A6 73.45%);
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    background-size: 100%;
+    transition: .3s background-size;
+    
+    &:focus {
+        outline: none;
+    }
+
+    &_green {
+        background: linear-gradient(91.59deg, #004288 11.97%, #20BF6B 73.45%);
+        background-size: 100%;
+    }
+
+    &_full-blue {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 152%;
+        background: #1F68A6;
+        border-radius: 2px;
+        width: 289px;
+        height: 45px;
+        transition: .3s background-color;
+
+        &:hover {
+            background: #004288;
+        }
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-size: 200%;
+    }
+}

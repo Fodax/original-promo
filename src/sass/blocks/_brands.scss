@@ -1,0 +1,28 @@
+.brands {
+    padding: 77px 0 81px;
+
+    &__slider-wrapper {
+        overflow: hidden;
+    }
+
+    &__slider {
+        margin: 0 -12px;
+    }
+
+    &__slide-wrapper {
+        height: 199px;
+    }
+
+    &__slide {
+        margin: 43px auto 0;
+        width: max-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 279px;
+        height: 121px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+    }
+}
